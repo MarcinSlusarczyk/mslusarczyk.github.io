@@ -57,8 +57,6 @@ nav{
   justify-content: space-around;
   align-items: center;
   border-bottom: black 1px solid;
-  border-radius-left-bottom: 30%;
-  border-radius-right-bottom: 30%;
 }
 
 nav a{
@@ -244,29 +242,42 @@ padding-bottom:1vw;
 }
 
 .container--profile-links{
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 1rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   margin-bottom: 20px;
+  background:#f0f0f7;
 }
 
 .profile-links{
+
   font-size: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  color: white;
   margin: 5px;
   flex-grow: 2;
+  width:3rem;
+  height:10rem;
 }
+.profile-links svg {
+width:10rem;
+height:10rem;
+padding: 1rem;
+}
+
 
 .profile-links:hover{
   color: black;
 }
 
+
+
 .filler--contact{
-  background: url(https://images.unsplash.com/photo-1517028267-bcc3eba7474c?ixlib=rb-0.3.5&s=4400aadc6f58c5bc31e455db03321cea&auto=format&fit=crop&w=1504&q=80);
   background-position: 40% 50%;
 }
 
@@ -316,7 +327,7 @@ padding-bottom:1vw;
 
 @media(max-width:550px){
  nav{
-  padding: 0px;
+  padding: 5px;
   align-items: flex-start;
   }
 
@@ -326,7 +337,7 @@ padding-bottom:1vw;
   nav{
     font-size:1em;
     height: auto;
-    max-height: 200px;
+
   }
 
   h1{
