@@ -6,7 +6,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Arial Narrow";
+  font-family: Audiowide;
   background: white;
 
 }
@@ -42,15 +42,16 @@ p{
 
 /*NAV*/
 nav{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 2px;
+  background:#f0f0f7;
   position: fixed;
   top: 0;
   width: 100%;
   max-width: 1400px;
   height: 100px;
   z-index: 2;
-  background: #327fa8;
   text-align: center;
-  padding: 20px;
   box-sizing: border-box;
   display: flex;
   flex-flow: row wrap;
@@ -60,7 +61,7 @@ nav{
 }
 
 nav a{
-  color:white;
+  color:black;
   text-transform: uppercase;
   font-weight: 100;
   font-size: 1.75em;
@@ -121,9 +122,9 @@ section{
 }
 
 .project-tile{
-  border: 1px solid black;
-  box-shadow: 5px 5px 5px black;
-  border-radius: 1rem;
+
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 2px;
   background:#f0f0f7;
   padding: 20px;
   margin: 10px;
@@ -196,9 +197,8 @@ font-size: 1.3rem;
 
 /*WORK*/
 .service-box {
-border: 1px solid black;
-box-shadow: 5px 5px 5px black;
-border-radius: 1rem;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+border-radius: 5px;
 width:30vw;
 height:30vw;
 float:left;
@@ -242,14 +242,14 @@ padding-bottom:1vw;
 }
 
 .container--profile-links{
-  border: 1px solid black;
-  box-shadow: 5px 5px 5px black;
-  border-radius: 1rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 2px;
+  background:#f0f0f7;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   margin-bottom: 20px;
-  background:#f0f0f7;
+
 }
 
 .profile-links{
@@ -275,11 +275,7 @@ padding: 1vw;
   color: black;
 }
 
-
-
 .filler--contact{
   background-position: 40% 50%;
 }
-
-
 
