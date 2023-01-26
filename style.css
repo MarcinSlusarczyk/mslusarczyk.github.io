@@ -176,12 +176,12 @@
       display:block;
       height: auto;
       padding:1rem;
-      max-width: 800px;
+      max-width: 850px;
     }
 
     .description--project{
       text-align: center;
-      font-size: 1em;
+      font-size: 1rem;
     }
 
 
@@ -209,7 +209,7 @@
 
     p.desc-me {
     padding: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     }
 
 
@@ -231,7 +231,7 @@
     }
 
     .service-box li {
-    font-size:1.4rem;
+    font-size:1.5rem;
     padding-bottom:1rem;
     }
 
