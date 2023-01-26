@@ -440,11 +440,12 @@
     .personal-container {
       box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
       border-radius: 2px;
-      background:"var(--main_color)";
+      background:var(--main_color);
       padding: 40px;
       margin: 10px;
       box-sizing: border-box;
       display: flex;
+      height:500px;
 
 
     }
