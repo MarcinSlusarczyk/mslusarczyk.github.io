@@ -31,8 +31,8 @@
 
     h2{
      text-transform: uppercase;
-      font-weight: 100;
-      font-size: 3em;
+      font-weight: bold;
+      font-size: 3rem;
       margin-top: 0.1em;
       margin-bottom: 0.4em;
       color: var(--font-color-bg);
@@ -40,8 +40,8 @@
 
     h3{
      text-transform: uppercase;
-      font-weight: 150;
-      font-size: 1.5em;
+      font-weight: bold;
+      font-size: 2rem;
       margin-top: 0.1em;
       margin-bottom: 0.4em;
       color: var(--font-color-bg);
