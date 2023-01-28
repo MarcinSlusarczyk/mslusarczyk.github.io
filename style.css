@@ -189,6 +189,10 @@
     .description--project{
       text-align: center;
       font-size: 2rem;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      padding:1rem;
+      background:var(--bg_color);
+
     }
 
 
@@ -224,11 +228,11 @@
     .service-box {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 5px;
-    width:400px;
-    height:1200px;
+    width:450px;
+    height:1100px;
     float:left;
-    padding:0.5rem;
-    margin-left: 3rem;
+    padding:0.1rem;
+    margin-left: 1.5rem;
     background:var(--main_color);
     }
 
@@ -277,7 +281,7 @@
       flex-flow: row wrap;
       justify-content: space-between;
       margin-bottom: 20px;
-      max-width: 900px;
+      max-width: 1200px;
       margin:auto;
 
 
