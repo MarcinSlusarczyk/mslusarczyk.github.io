@@ -484,6 +484,9 @@
 
     .description--project{
       text-align: left;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      padding:1rem;
+      background:var(--bg_color);
     }
 
 
