@@ -1,5 +1,5 @@
 :root {
-  --main_color: #f0f0f7;
+  --main_color: #e4e7f7;
   --bg_color: white;
   --font-color-bg: black;
   --font-color-content: black;
@@ -45,8 +45,12 @@
       margin-top: 0.1em;
       margin-bottom: 0.4em;
       color: var(--font-color-bg);
-
     }
+
+    .project-title h3 {
+    text-align:center;
+    }
+
 
     p{
      font-size:1.4rem;;
@@ -100,7 +104,7 @@
       width: 100%;
       max-width: 1300px;
       background: var(--bg_color);
-      border-bottom: black 1px solid;
+      border-bottom: var(--font-color-bg) 1px solid;
     }
 
     .anchor{
@@ -167,8 +171,6 @@
 
     }
 
-
-
     .img--project{
       margin:auto;
       display:block;
@@ -180,8 +182,6 @@
     .description--project{
       text-align: center;
       font-size: 2rem;
-      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-      padding:1rem;
       background:var(--bg_color);
 
     }
@@ -212,6 +212,7 @@
     p.desc-me {
     padding: 1rem;
     font-size: 2rem;
+    color:var(--font-color-content);
     }
 
 
@@ -235,6 +236,7 @@
     .service-box li {
     font-size:2rem;
     padding-bottom:1rem;
+    color:var(--font-color-content);
     }
 
     .img--excel {
@@ -390,7 +392,7 @@
       width: 100%;
       max-width: 1400px;
       background: var(--bg_color);
-      border-bottom: black 1px solid;
+      border-bottom: var(--font-color-bg) 1px solid;
     }
 
     .anchor{
@@ -475,7 +477,8 @@
 
     .description--project{
       text-align: left;
-      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      width:1000px;
+      height:fit-content;
       padding:1rem;
       background:var(--bg_color);
     }
@@ -506,6 +509,7 @@
     p.desc-me {
     padding-left: 2rem;
     font-size: 1.5rem;
+    color:var(--font-color-content);
     }
 
 
@@ -529,6 +533,7 @@
     .service-box li {
     font-size:1.1vw;
     padding-bottom:1vw;
+    color:var(--font-color-content)
     }
 
     .img--excel {
